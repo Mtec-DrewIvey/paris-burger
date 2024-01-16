@@ -1,0 +1,14 @@
+/* Basic CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100svh;
+}
+
+img, svg, picture, video {
+    max-width: 100%;
+}
