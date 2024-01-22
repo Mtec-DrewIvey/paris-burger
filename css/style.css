@@ -88,7 +88,7 @@ nav ul li a:active {
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(/images/hero-image.jpg);
+    background: url(../images/hero-image.jpg);
     background-size: cover;
     height: 80vh;
 }
