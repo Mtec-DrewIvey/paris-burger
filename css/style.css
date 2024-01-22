@@ -1,6 +1,7 @@
 /* setting property variables for reused attributes */
 :root {
     --primary-clr: #f0a436;
+    /* --secondary-clr: ; Color Picker Grey */
 }
 /* Basic CSS RESET */
 * {
@@ -105,9 +106,15 @@ nav ul li a:active {
 .section-container {
     display: flex;
     flex-direction: column;
+    /* flex-flow: wrap column; */
     justify-content: center;
-    align-items: center;
-    margin: 1rem 10%;
+    align-items: flex-start;
+    padding: 3rem 10%;
+}
+
+.section-container:nth-child(even) {
+    background-color: gray;
+    margin: 0;
 }
 
 .text-content {
@@ -128,20 +135,26 @@ nav ul li a:active {
 }
 
 .image-container {
+    /* position: relative; */
     display: flex;
     gap: 1.25rem;
     flex-wrap: wrap;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
-    overflow-x: hidden;
 }
 
 .recipe-card {
     flex: 1;
+    display: flex;
+    flex-flow: wrap column;
+    /* flex-direction: column; */
 }
 
 .recipe-card img {
+    flex: 1;
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
+
+/* .descriptor {
+    
+} */
