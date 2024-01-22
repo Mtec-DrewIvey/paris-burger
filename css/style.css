@@ -1,7 +1,7 @@
 /* setting property variables for reused attributes */
 :root {
     --primary-clr: #f0a436;
-    /* --secondary-clr: ; Color Picker Grey */
+    --secondary-clr: #dadfea; 
 }
 /* Basic CSS RESET */
 * {
@@ -34,7 +34,7 @@ body{
     padding: 1rem;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,15 +106,19 @@ nav ul li a:active {
 .section-container {
     display: flex;
     flex-direction: column;
-    /* flex-flow: wrap column; */
     justify-content: center;
     align-items: flex-start;
     padding: 3rem 10%;
 }
 
 .section-container:nth-child(even) {
-    background-color: gray;
+    background-color: var(--secondary-clr);
     margin: 0;
+}
+
+.section-container:last-of-type > .image-container .recipe-card img {
+    padding: 5px;
+    background-color: var(--secondary-clr);
 }
 
 .text-content {
@@ -135,17 +139,16 @@ nav ul li a:active {
 }
 
 .image-container {
-    /* position: relative; */
     display: flex;
     gap: 1.25rem;
     flex-wrap: wrap;
 }
 
+
 .recipe-card {
     flex: 1;
     display: flex;
     flex-flow: wrap column;
-    /* flex-direction: column; */
 }
 
 .recipe-card img {
@@ -155,6 +158,19 @@ nav ul li a:active {
     object-fit: cover;
 }
 
-/* .descriptor {
-    
-} */
+footer > * {
+    margin: 2rem 5rem;
+}
+
+footer ul {
+    gap: 1.25rem;
+}
+
+footer ul li {
+    font-size: .875rem;
+}
+
+footer h6 {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
