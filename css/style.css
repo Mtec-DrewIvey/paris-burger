@@ -1,7 +1,7 @@
 /* setting property variables for reused attributes */
 :root {
-    --primary-clr: #f0a436;
-    --secondary-clr: #dadfea; 
+    --orange-clr: #f0a436;
+    --gray-clr: #dadfea; 
 }
 /* Basic CSS RESET */
 * {
@@ -38,7 +38,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary-clr);
+    background-color: var(--orange-clr);
 }
 
 header > * {
@@ -84,16 +84,28 @@ nav ul li a:active {
     color: #5f5f5f;
 }
 
-.hero-img {
+.bg-gray {
+    background-color: var(--gray-clr);
+}
+
+.bg-img {
     position: relative;
     display: flex;
     justify-content: center;
-    background: url(../images/hero-image.jpg);
-    background-size: cover;
     height: 80vh;
 }
 
-.hero-text {
+.hero {
+    background: url(../images/hero-image.jpg);
+    background-size: cover;
+}
+
+.recipe-img {
+    background: url(../images/bengal-burger.jpg);
+    background-size: cover;
+}
+
+.header-text {
     display: inline-flex;
     justify-content: center;
     position: absolute;
@@ -103,22 +115,38 @@ nav ul li a:active {
     font-weight: bolder;
 }
 
+.checked {
+    color: #a73222;
+}
+
 .section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 3rem 10%;
-}
-
-.section-container:nth-child(even) {
-    background-color: var(--secondary-clr);
-    margin: 0;
 }
 
 .section-container:last-of-type > .image-container .recipe-card img {
     padding: 5px;
-    background-color: var(--secondary-clr);
+    background-color: var(--gray-clr);
+}
+
+.section-container:last-of-type > .text-content p:first-of-type{
+    margin-bottom: 2rem;
+}
+
+.ratings > *{
+    margin-bottom: 1rem;
+}
+
+.section-container h2 {
+    font-size: 2.5rem;
+}
+
+.review-preview {
+    font-size: .9rem;
+    margin-left: .45rem;
 }
 
 .text-content {
@@ -143,7 +171,6 @@ nav ul li a:active {
     gap: 1.25rem;
     flex-wrap: wrap;
 }
-
 
 .recipe-card {
     flex: 1;
