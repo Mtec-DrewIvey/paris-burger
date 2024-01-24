@@ -116,6 +116,7 @@ a {
 .recipe-img {
     background: url(../images/bengal-burger.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .header-text {
@@ -268,6 +269,7 @@ a {
 
 .guide {
     flex:1;
+    padding-right: 1rem;
 }
 
 .guide figcaption {
@@ -285,21 +287,17 @@ a {
     margin-top: 1rem;
 }
 
-.guide ol li:first-child {
-    margin-top: 0;
+.guide ul > * {
+    list-style-type: disc;
 }
 
 .guide li {
     font-size: var(--section-sub-text);
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 .guide:last-of-type li {
     margin: 1rem 0; 
-}
-
-.guide:last-of-type ol li:nth-child(8) {
-    margin-top: 0;
 }
 
 footer > * {
