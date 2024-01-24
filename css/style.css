@@ -2,6 +2,7 @@
 :root {
     --orange-clr: #f0a436;
     --gray-clr: #dadfea; 
+    --accent-clr: #a73222;
 }
 /* Basic CSS RESET */
 * {
@@ -12,7 +13,6 @@
 
 image {
     max-width: 100%;
-
 }
 
 body{
@@ -45,7 +45,7 @@ header > * {
     margin: 0 5rem;
 }
 
-nav ul {
+.links ul {
     list-style-type: none;
     display: flex;
     gap: 2rem;
@@ -53,13 +53,12 @@ nav ul {
     align-items: center;
 }
 
-nav ul li a {
-    display: inline-block;
+a {
     text-decoration: none;
     color: #000000;
 }
 
-nav ul li a::after {
+.links ul li a::after {
     content: '';
     display: block;
     width: 0;
@@ -68,19 +67,19 @@ nav ul li a::after {
     transition: width .4s ease-in;
 }
 
-nav ul li a:hover::after {
+.links ul li a:hover::after {
     width: 100%;
 }
 
-nav ul li a:visited {
+.links ul li a:visited {
     color: #000000;
 }
 
-nav ul li a:hover {
+.links ul li a:hover {
     color: #3e3e3e;
 }
 
-nav ul li a:active {
+.links ul li a:active {
     color: #5f5f5f;
 }
 
@@ -116,15 +115,41 @@ nav ul li a:active {
 }
 
 .checked {
-    color: #a73222;
+    color: var(--accent-clr);
 }
 
-.section-container {
+.section-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 3rem 10%;
+}
+
+.ratings {
+    align-items: center;
+}
+
+.save-print {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save-print > * {
+    margin: 0 .75rem;
+}
+
+.save-print button{
+    cursor: pointer;
+    border: 1px solid #7f2418;
+    border-radius: 1rem;
+    background-color: var(--accent-clr);
+    color: #ffffff;
+    padding: .5rem 1rem;
+}
+
+.fa {
+    font-size: 1.5rem !important;
 }
 
 .section-container:last-of-type > .image-container .recipe-card img {
@@ -138,6 +163,10 @@ nav ul li a:active {
 
 .ratings > *{
     margin-bottom: 1rem;
+}
+
+.ratings .fa-star {
+    font-size: .875rem;
 }
 
 .section-container h2 {
