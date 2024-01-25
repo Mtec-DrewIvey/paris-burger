@@ -283,21 +283,35 @@ a {
     font-weight: var(--font-wght-bold);
 }
 
-.guide ul:last-of-type {
+.guide ul p.sub-caption {
     margin-top: 1rem;
 }
 
-.guide ul > * {
-    list-style-type: disc;
+/* Setting my own counter for ol to not reset with break in list */
+.guide ol {
+    list-style: none;
+}
+
+.guide ol li::before {
+    counter-increment: mycounter;
+    content: counter(mycounter) ". ";
+}
+
+.guide ol:first-of-type {
+    counter-reset: mycounter;
 }
 
 .guide li {
     font-size: var(--section-sub-text);
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
-.guide:last-of-type li {
-    margin: 1rem 0; 
+.guide ol:first-of-type > li{
+    margin-bottom: 1rem; 
+}
+
+.guide ol:last-of-type li {
+    margin-bottom: 1rem;
 }
 
 footer > * {
