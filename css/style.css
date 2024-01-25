@@ -314,6 +314,22 @@ a {
     margin-bottom: 1rem;
 }
 
+.food-vid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+}
+
+.food-vid a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.food-vid a:visited {
+    color: blue;
+}
+
 footer > * {
     margin: 2rem 5rem;
 }
