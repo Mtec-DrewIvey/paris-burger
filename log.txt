@@ -1,0 +1,107 @@
+commit f97d73affd411470608672f5a913115592c2c4cf
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 24 19:50:09 2024 -0700
+
+    small updates to how I formatted ordered list after checking with w3c validator to see some errors Wed Jan 24 19:50:09 MST 2024
+
+commit 85726f7187a091a30f0b1ed68866821ef1dd5e28
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 24 19:33:34 2024 -0700
+
+    Additional alt attributes added to images
+
+commit e56eefe643429292a4dba6928101c1bea54a706b
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 24 19:32:49 2024 -0700
+
+    Added Alt descriptions to images for accessibility Wed Jan 24 19:32:49 MST 2024
+
+commit be35ea5cafe0a4285ff1bf3fbe30a2eea6f168bc
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 24 18:51:31 2024 -0700
+
+    finishing touches on structure and styling Wed Jan 24 18:51:31 MST 2024
+
+commit d763bc811c330ca1e0522ee0a74dc936a209213f
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Wed Jan 24 09:39:25 2024 -0700
+
+    working on polishing styles to match mockup as closely as possible. Wed Jan 24 09:39:25 MST 2024
+
+commit 826351b1f2da4c6a80ce300f41a9f49e9f87569b
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Wed Jan 24 09:24:58 2024 -0700
+
+    Finishing styling and updating some html for more reusable code/styles Wed Jan 24 09:24:58 MST 2024
+
+commit 927695110e610d25e0230d5489845cffc8f3aa8a
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Wed Jan 24 07:28:33 2024 -0700
+
+    applying styles to recipe page save button and ratings
+
+commit a082f2444fc395159518bf1de0cc1c62cc18174f
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Tue Jan 23 10:20:09 2024 -0700
+
+    updated section-containers to align-items: flex-start to prevent text from aligning center when images grow Tue Jan 23 10:20:09 MST 2024
+
+commit a6088fad487361a21d34a922cbc678f96ce32c96
+Author: Drew Ivey <drewivey@drews-air.mynetworksettings.com>
+Date:   Mon Jan 22 18:11:24 2024 -0700
+
+    Created framework for recipe.html and started modifying styles for 'like' sections between pages Mon Jan 22 18:11:24 MST 2024
+
+commit ce63d18fdbae84c98466949f1fa3dc7adeedd4d6
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 14:31:08 2024 -0700
+
+    updating path to hero background img
+
+commit a1f65d1099e2fd0e8f844978f9f50e219e328fb3
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 14:27:35 2024 -0700
+
+    trying background-image for hero background instead of shorthand. Mon Jan 22 14:27:35 MST 2024
+
+commit f90fcbfa7c10be6b43c57f3d01ffcbd5cc597072
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 14:24:58 2024 -0700
+
+    further testing
+
+commit d1db3ddb43745137997898e39ca376003e24163b
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 14:23:24 2024 -0700
+
+    trying to resolve issue with git pages returning 404 error on img
+
+commit 2a848e5336f8dc522d1845a7c0042014910799d3
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 14:14:21 2024 -0700
+
+    Creating footer links and adding gray background to images in last container Mon Jan 22 14:14:21 MST 2024
+
+commit 8ea091107e2062af24f24fe23c5c37a024ff3bbb
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Mon Jan 22 13:08:55 2024 -0700
+
+    added missing images. Finishing section container styling by getting images to be same size and descriptor text not to overflow into next section. Mon Jan 22 13:08:55 MST 2024
+
+commit 02eb5652606b22cd2c49064e5b29b58d6ea384f0
+Author: Drew Ivey <drewivey@drews-air.mynetworksettings.com>
+Date:   Sun Jan 21 22:41:06 2024 -0700
+
+    Added all images. Created structure and styling for hero class. Started on first section
+
+commit 2eaa69829d49a02ea4b3b32d5eeef10222692a97
+Author: Drew Ivey <drewivey@Drews-MacBook-Air.local>
+Date:   Tue Jan 16 10:21:57 2024 -0700
+
+    creating folders/files Tue Jan 16 10:21:57 MST 2024
+
+commit 5e7044ce5d883f081aabdc5fc4653f1fb671eb00
+Author: Drew Ivey <155995115+Mtec-DrewIvey@users.noreply.github.com>
+Date:   Tue Jan 16 10:15:57 2024 -0700
+
+    Initial commit
