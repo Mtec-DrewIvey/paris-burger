@@ -283,8 +283,9 @@ a {
     font-weight: var(--font-wght-bold);
 }
 
-.guide ul p.sub-caption {
+.guide li.sub-caption {
     margin-top: 1rem;
+    list-style: none;
 }
 
 /* Setting my own counter for ol to not reset with break in list */
